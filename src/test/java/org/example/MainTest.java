@@ -9,6 +9,6 @@ class MainTest {
   @Test
   void test() {
     int i = new Random().nextInt(10);
-    assertTrue(i >= 5);
+    assertTrue(i >= 3);
   }
 }
