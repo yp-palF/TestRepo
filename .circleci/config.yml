@@ -37,7 +37,7 @@ jobs:
   test-java:
     docker:
       - image: cimg/openjdk:23.0.2
-    working_directory: ~/project/springboot-service
+    working_directory: ~/project/TestRepo
     steps:
       - checkout:
           path: ~/project
