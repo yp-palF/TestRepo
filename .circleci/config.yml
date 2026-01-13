@@ -51,9 +51,6 @@ workflows:
     # Inside the workflow, you define the jobs you want to run.
     jobs:
       - say-hello
-  test-workflow:
-    jobs:
-      - run-java-tests
   test-workflow-mvn:
     jobs:
       - test-java
