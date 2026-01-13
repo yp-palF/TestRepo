@@ -1,14 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: org.example.MainTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.085 s <<< FAILURE! -- in org.example.MainTest
-org.example.MainTest.test -- Time elapsed: 0.047 s <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
-	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:158)
-	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:139)
-	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:69)
-	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:41)
-	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:35)
-	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:195)
-	at org.example.MainTest.test(MainTest.java:12)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.067 s -- in org.example.MainTest
